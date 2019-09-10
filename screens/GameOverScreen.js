@@ -12,8 +12,8 @@ const GameOverScreen = props => {
 			<TitleText>The Game is Over!</TitleText>
 			<View style={styles.imageWrapper}>
 				<Image 
-					// source={require('../assets/success.png')} 
-					source={{uri: 'https://blog.strava.com/wp-content/uploads/2018/06/DSC02332-1.jpg'}} 
+					source={require('../assets/summit.jpg')} 
+					// source={{uri: 'https://blog.strava.com/wp-content/uploads/2018/06/DSC02332-1.jpg'}} 
 					style={styles.image} 
 					// resizeMode="contain"
 				/>

@@ -82,6 +82,7 @@ const GameScreen = props => {
         </MainButton>
       </Card>
       <View style={styles.listContainer}>
+        {/* FlatList works better with big lists to avoid their off-screen rendering */}
         <ScrollView contentContainerStyle={styles.list}>
           {pastGuesses.map((guess, index) => renderListItem(guess, pastGuesses.length - index))}
         </ScrollView>
@@ -108,7 +109,9 @@ const styles = StyleSheet.create({
     width: '80%'
   },
   list: {
-    alignItems: 'center'
+    flexGrow: 1,
+    alignItems: 'center',
+    justifyContent: 'flex-end'
   },
   listItem: {
     borderColor: '#ccc',
