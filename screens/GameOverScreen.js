@@ -46,7 +46,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#ccc"
+		backgroundColor: "#ccc",
+		height: Dimensions.get('window').height
   },
   image: {
     width: "100%",
