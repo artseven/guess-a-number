@@ -19,7 +19,8 @@ const styles = StyleSheet.create({
 		borderRadius: 10,
 		marginVertical: 10,
 		alignItems: 'center',
-		justifyContent: 'center'
+		justifyContent: 'center',
+		backgroundColor: 'white'
 	},
 	number: {
 		color: Colors.secondary,

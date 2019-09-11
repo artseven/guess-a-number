@@ -101,6 +101,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		padding: 10,
 		alignItems: 'center',
+		backgroundColor: '#ccc'
 	},
 	buttonContainer: {
 		flexDirection: 'row',
@@ -121,7 +122,7 @@ const styles = StyleSheet.create({
 	},
 	button: {
 		width: 100,
-		width: Dimensions.get('window').width / 3
+		width: Dimensions.get('window').width / 4
 	},
 	input: {
 		width: 50,

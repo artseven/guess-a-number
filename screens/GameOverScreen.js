@@ -35,7 +35,8 @@ const styles = StyleSheet.create({
 	screen: {
 		flex: 1,
 		justifyContent: 'center',
-		alignItems: 'center'
+		alignItems: 'center',
+		backgroundColor: '#ccc'
 	},
 	image: {
 		width: '100%',
@@ -44,7 +45,7 @@ const styles = StyleSheet.create({
 	imageWrapper: {
 		width: '80%',
 		height: 300,
-		borderRadius: 200,
+		borderRadius: 150,
 		borderWidth: 3,
 		borderColor: 'black',
 		overflow: "hidden",
