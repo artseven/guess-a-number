@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 10,
     alignItems: "center",
-    backgroundColor: "#ccc"
+    // backgroundColor: "#ccc"
   },
   buttonContainer: {
     flexDirection: "row",
