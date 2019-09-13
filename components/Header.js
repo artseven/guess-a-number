@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, Platform } from 'react-native';
 
 import Colors from '../constants/colors';
 import TitleText from '../components/TitleText';
@@ -20,12 +20,12 @@ const styles = StyleSheet.create({
 		width: '100%',
 		height: 90,
 		paddingTop: 36,
-		backgroundColor: Colors.primary,
+		backgroundColor: Platform.OS === 'android' ? Colors.primary : 'white',
 		alignItems: 'center',
 		justifyContent: 'center'
 	},
 	headerFont: {
-		color: 'white'
+		// color: Colors.primary
 	}
 });
 export default Header;
